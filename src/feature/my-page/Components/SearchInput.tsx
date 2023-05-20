@@ -11,7 +11,7 @@ function SearchInput() {
 
   return (
     <input
-      className="text-lg"
+      className="text-[red]"
       type="text"
       value={searchText}
       onChange={handleOnChange}
