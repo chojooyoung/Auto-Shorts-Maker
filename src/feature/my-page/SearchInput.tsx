@@ -10,15 +10,12 @@ function SearchInput() {
   };
 
   return (
-    <>
-      <div className="text-lg text-[red]">dffdfdfdds</div>
-      {/* <input
-        className="text"
-        type="text"
-        value={searchText}
-        onChange={handleOnChange}
-      /> */}
-    </>
+    <input
+      className="text-lg"
+      type="text"
+      value={searchText}
+      onChange={handleOnChange}
+    />
   );
 }
 
