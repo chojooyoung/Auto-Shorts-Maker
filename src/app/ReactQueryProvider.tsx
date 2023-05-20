@@ -1,3 +1,5 @@
+'use client';
+
 import { PropsWithChildren, useState } from 'react';
 import { QueryClient, QueryClientProvider, Hydrate } from 'react-query';
 import { ReactQueryDevtools } from 'react-query-devtools';
