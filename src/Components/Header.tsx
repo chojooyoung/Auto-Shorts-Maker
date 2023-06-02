@@ -20,8 +20,6 @@ function Header() {
 
   const isLogin = accessToken?.length !== 0;
 
-  console.log(accessToken);
-  console.log(isLogin);
   return (
     <header className="flex justify-between">
       <button type="button" onClick={handleBannerClick}>

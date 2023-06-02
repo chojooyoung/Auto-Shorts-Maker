@@ -11,11 +11,13 @@ const useGoogleAuth = () => {
 
   const router = useRouter();
 
-  const [accessToken, setAccessToken, deleteAccessToken] = useAuthStore((s) => [
-    s.accessToken,
-    s.setAccessToken,
-    s.deleteAccessToken,
-  ]);
+  const [accessToken, setAccessToken, deleteAccessToken] = useAuthStore(
+    (state) => [
+      state.accessToken,
+      state.setAccessToken,
+      state.deleteAccessToken,
+    ],
+  );
 
   const { setItem, removeItem, getItem } = useStorage();
 
